@@ -1,0 +1,201 @@
+/* HTML */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* BODY */
+
+body {
+  background-color: #fafafa;
+}
+/* HEADER */
+
+header {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  color: white;
+  min-height: 400px;
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header nav {
+  width: 100%;
+  background-color: rgba(127, 127, 127, 0.74);
+  position: fixed;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  margin-left: 20px;
+  padding: 10px 20px 10px 0px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8em;
+}
+
+header nav ul li a:hover {
+  color: plum;
+}
+
+header nav ul li a:active {
+  color: violet;
+}
+
+header h1 {
+  font-size: 3em;
+  position: relative;
+  top: 300px;
+  margin-left: 100px;
+  font-weight: 800;
+}
+
+/* MAIN */
+
+main {
+  margin: 30px;
+}
+
+h2 {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.7em;
+}
+
+p.debut {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 0px;
+}
+
+article p {
+  columns: 3;
+  margin: 20px;
+  text-align: justify;
+}
+
+/* FOLIO */
+
+section.folio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section.folio figure {
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+section.folio img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* LOGOS */
+
+section.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section.logos figure {
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+section.logos img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: plum;
+}
+
+footer p a:active {
+  color: violet;
+}
+
+/* ICONES */
+
+footer .icones {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+footer .icones a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .icones a i {
+  font-size: 1.8em;
+  margin: 10px;
+  cursor: pointer;
+}
+
+footer .icones a i.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+footer .icones a i.fa-twitter:hover {
+  color: #00aced;
+}
+
+footer .icones a i.fa-instagram:hover {
+  color: #b143bf;
+}
+
+/* FLECHE */
+
+figure.fleche {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+figure.fleche a img {
+  opacity: 0.5;
+}
+
+figure.fleche a img:hover {
+  opacity: 1;
+}
